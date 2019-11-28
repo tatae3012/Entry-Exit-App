@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="186dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/alegreya"
+        android:text="VISITOR DETAILS"
+        android:textColor="#2680EB"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/c1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/c2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/c2"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/b3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1" />
+
+    <EditText
+        android:id="@+id/b4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Check-in Time(24 HR Clock)"
+        android:inputType="time"
+        app:layout_constraintBottom_toTopOf="@+id/b5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b3" />
+
+    <EditText
+        android:id="@+id/b5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Check-out Time(24 HR Clock)"
+        android:inputType="time"
+        app:layout_constraintBottom_toTopOf="@+id/b6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b4" />
+
+    <EditText
+        android:id="@+id/b6"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Reason of Visit"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/b7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b5" />
+
+    <EditText
+        android:id="@+id/b3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/b4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c2" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="5dp"
+        android:background="#2680EB"
+        android:fontFamily="@font/alegreya"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b6" />
+
+</android.support.constraint.ConstraintLayout>

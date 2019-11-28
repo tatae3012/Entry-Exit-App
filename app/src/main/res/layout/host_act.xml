@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/c4"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="141dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="56dp"
+        android:background="#2680EB"
+        android:fontFamily="@font/alegreya"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="186dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/alegreya"
+        android:text="HOST DETAILS"
+        android:textColor="#2680EB"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/c1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/c1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/c2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/c2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/c3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1" />
+
+    <EditText
+        android:id="@+id/c3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/c4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c2" />
+
+</android.support.constraint.ConstraintLayout>

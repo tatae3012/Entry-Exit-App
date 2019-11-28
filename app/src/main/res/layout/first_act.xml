@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="326dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="114dp"
+        android:fontFamily="@font/alegreya"
+        android:text="Help us connect you better by telling who you are?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/v"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/v"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="10dp"
+        android:background="#2680EB"
+        android:fontFamily="@font/alegreya"
+        android:text="VISITOR"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/h"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="139dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="10dp"
+        android:background="#2680EB"
+        android:fontFamily="@font/alegreya"
+        android:text="HOST"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v" />
+</android.support.constraint.ConstraintLayout>
